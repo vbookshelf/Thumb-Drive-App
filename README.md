@@ -80,6 +80,25 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.
 XXXXX-XXXXX
 
+## Bundled packages
+
+- UV
+- Ollama
+- ffmeg
+  
+<br>
+
+- "flask==3.1.2",
+- "ollama==0.6.0",
+- "kokoro-onnx==0.4.9",
+- "soundfile==0.13.1",
+- "openai-whisper==20250625",
+- "pymupdf==1.26.4",
+- "pillow==11.3.0",
+- "requests==2.32.3",
+- "flask-socketio==5.5.1",
+- "pydicom==2.3.0",
+
 ## System Requirements:
 
 - Operating System: MacOS
