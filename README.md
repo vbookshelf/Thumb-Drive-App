@@ -31,11 +31,15 @@ Yes, I know this approach looks old-school. But it works effectively. Try it by 
 - App runs completely offline
 - Entire app can be shared on a thumb-drive, via AirDrop or over a local network
 
+<br>
+
 ## Working Example - The Offline MedAi Console v2.0 TDA
 
 The MedAi Console is a transparent, offline-first and privacy-first multimodal AI console where clinicians can talk, type, show images, adjust parameters and create AI tools. Uses Flask for the backend, Whisper for Speech-to-Text (STT), Kokoro for Text-to-Speech (TTS), and Ollama to serve the Large Language Model (LLM). It's designed to run on Apple Silicon computers.
 
-![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F1086574%2F52c699fba048e44a343e833ebcb7fffd%2Fimage7.png?generation=1772124351940433&alt=media)
+I originally built version 1 of this console as my entry for a Medical AI hackathon on Kaggle. I've converted version 2 into a Thumb-Drive app. All dependencies including Ollama and the MedGemma 4b BF16 model are bundled with the app. Total size is approximately 10.2 GB. No internet is needed for installation. The app can be shared using a thumb drive or via AirDrop.
+
+
 
 ## Version 1.0
 
