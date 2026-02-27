@@ -38,7 +38,6 @@ Yes, I know this approach looks old-school. But it works effectively. Try it by 
 - Double-click a file to install and run
 - App runs completely offline
 - Entire app can be shared on a thumb-drive, via AirDrop or over a local network
-- Only the first person to download needs internet. Everyone else on the team then gets the app for free.
 
 <br>
 
