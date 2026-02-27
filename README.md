@@ -6,7 +6,9 @@ A new way to deploy portable self-contained AI software in low resource settings
 
 <br>
 
-Yes, I know this approach looks old fashioned. But it works effectively. Try it by downloading and installing the app.
+Yes, I know this approach looks old-school. But it works effectively. Try it by downloading and installing the example app.
+
+<br>
 
 ## Modern AI software installation
 
