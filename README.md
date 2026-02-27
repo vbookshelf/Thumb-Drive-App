@@ -80,11 +80,14 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 The code is stored in a Kaggle dataset and not on GitHub because GitHub has a file size limit.
 XXXXX-XXXXX
 
-## Bundled packages
+## Bundled package
 
 - UV
 - Ollama
 - ffmeg
+- kokoro-v1.0.onnx
+- voices-v1.0.bin
+- hf.co/unsloth/medgemma-4b-it-GGUF:BF16
   
 <br>
 
