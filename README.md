@@ -79,7 +79,7 @@ https://github.com/vbookshelf/Offline-MedAi-Console
 
 ## Changes made in v2.0
 
-- Converted app into a TDA
+- Converted the app into a TDA
 - Added data encryption
 
 ## Download the demo app from Kaggle
