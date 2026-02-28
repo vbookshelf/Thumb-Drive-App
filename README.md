@@ -46,7 +46,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 - Installation doesn't require an internet connection
 - Double-click a file to install and run
 - App runs completely offline
-- Entire app can be shared on a thumb-drive, via AirDrop or over a local network
+- Entire app can be shared on a thumb-drive or via AirDrop
 
 <br>
 
