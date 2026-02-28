@@ -1,4 +1,4 @@
-# Thumb Drive App (TDA)
+# Thumb-Drive App (TDA)
 
 - A method to deploy portable self-contained AI software in low resource settings.
 - Bundles the AI model and all binary executables, including Ollama, together with the app.
