@@ -19,7 +19,7 @@
 
 ## Demo App
 
-The Offline MedAi Console v2.0 TBA Encrypt<br>
+The Offline MedAi Console v2.0 TBA<br>
 https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app
 
 <br>
