@@ -128,7 +128,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 ### 1. If you downloaded the app from Kaggle:
 
-a. Unzip (if required) and place the MedAi-Console-v2.0-TDA-Encrypt folder on your
+a. Unzip and place the MedAi-Console-v2.0-TDA-Encrypt folder on your
 desktop.
 
 b. cd into MedAi-Console-v2.0-TDA-Encrypt folder:
