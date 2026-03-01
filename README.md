@@ -135,7 +135,7 @@ c. Paste this command into the terminal and press Enter:
 (MacOS quarantines downloaded files. This strips the quarantine attribute so that the file is executable.)
 
 ```
-xattr -d com.apple.quarantine start-mac-app.command
+cat start-mac-app.command > temp && mv temp start-mac-app.command && chmod +x start-mac-app.command
 ```
 
 d. Open the MedAi-Console-v2.0-TDA folder
