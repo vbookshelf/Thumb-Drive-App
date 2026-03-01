@@ -7,6 +7,7 @@
 - Copies of the installed app can be shared using a thumb-drive or AirDrop. All dependencies travel with the copy.
 - Double-click to install.
 - Runs completely offline.
+- Can be run on an external SSD.
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
 - User data is encrypted.
 
