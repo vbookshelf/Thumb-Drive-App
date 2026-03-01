@@ -141,7 +141,7 @@ d. Open the MedAi-Console-v2.0-TDA folder
 
 e. Double click this file: ```start-mac-app.command```
 
-f. The app will install automatically and then open in your browser.
+f. The app will download all requirements and then open in your browser.
 Please note that during this step approximately 10 GB will be downloaded. You will need a fast and stable internet connection.
 
 ### 2. If you received a copy that someone already installed:
@@ -150,7 +150,7 @@ a. Move the folder to your desktop. If your external drive is an SSD, you don't 
 
 b. Double click this file: ```start-mac-app.command```
 
-c. The app will install automatically and then open in your browser.
+c. The app will open in your browser.
 
 ### How to shut down the app
 
