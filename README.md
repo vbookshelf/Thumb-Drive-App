@@ -3,9 +3,9 @@
 
 - A method to deploy portable self-contained AI apps in places where there's no internet.
 - Bundles the AI model and all binary executables together with the app - including Ollama.
-- Only the first install requires an internet connection.
-- Copies of the installed app can be shared using a thumb-drive or AirDrop. All dependencies travel with the copy.
-- Double-click to install.
+- Only the first install requires an internet connection. Double-click to install.
+- Copies of the installed app can be shared using a thumb-drive or AirDrop.
+- All dependencies travel with the copy. No installation necessary. Double-click to run.
 - Runs completely offline.
 - Can be run on an external SSD.
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
@@ -24,9 +24,9 @@
 1. Download the app folder from Kaggle:<br>
 https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-drive-app
 
-3. Install the app with internet enabled. The MedGemma 4B BF16 model and all pyproject.toml dependencies will be auto downloaded and installed. Total size, after installation, is approximately 10.2 GB. 
-4. To share the app with others simply share a copy of your project folder. All the dependencies, downloaded during your installation, will travel with it. The person who uses your copy won't need  to download anything from the internet. They just need to double click the start-mac-app.command file to install the app.<br>
-5. Your conversation history and any images you upload are encrypted. However, please delete the storage_vault folder from the copy that you share. If you forget to do this it's not a problem. Because your data is encrypted no one else will be able to see it. Also, your data is tied to your computer. If the app detects your data on another device, it will auto delete that data.
+2. Install the app with internet enabled. The MedGemma 4B BF16 model and all pyproject.toml dependencies will be auto downloaded and installed. Total size, after installation, is approximately 10.2 GB. 
+3. To share the app with others simply share a copy of your project folder. All the dependencies, downloaded during your installation, will travel with it. The person who uses your copy won't need  to install anything. They just need to double click the start-mac-app.command file to run the app. No internet required.<br>
+4. Your conversation history and any images you upload are encrypted. However, please delete the storage_vault folder from the copy that you share. If you forget to do this it's not a problem. Because your data is encrypted no one else will be able to see it. Also, your data is tied to your computer. If the app detects your data on another device, it will auto delete that data.
 
 <br>
 
