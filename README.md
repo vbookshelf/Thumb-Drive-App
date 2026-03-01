@@ -155,7 +155,31 @@ The app does not stop running when you close the browser tab.
 To shut down the app, close the terminal window.
 You can also close the terminal by selecting it and typing Ctrl+C.
 
+<br>
 
+## How to apply this approach to your own offline AI app
+
+To convert your AI app to a TDA, I suggest that you collaborate with Claude 4.6 Sonnet. It's free.<br>
+You need to clearly state your goal and give the AI as much context as possible.
+
+During the discussion you should do the following:
+
+- Review the included pdf that explains how to get the binaries for Ollama, UV and ffmpeg
+- Review the pdf, inside the demo app folder, that explains how to install the app.
+- Give Claude the demo start-mac-app.command file so it can see how to implement the Double-Click installation
+- Give Claude the demo app.py so it can see how to implement the Encryption
+- Give Claude a screenshots of the demo app folder structure
+- Give Claude the link to this repo so it can understand the approach
+- Give Claude the your app's python code.
+- Ask Claude to modify your app.
+
+What Claude should do:
+
+- Create a new start-mac-app.command file.
+- Revise your Python code to include Encryption of any user information so it's not readable if the user forgets to delete it before sharing a copy of the app.
+- Explain how to put everything together.
+
+AI collaboration is a force multiplier. It's important to get good at it. Good luck.
 <br>
 
 
