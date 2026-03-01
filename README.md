@@ -161,6 +161,36 @@ You can also close the terminal by selecting it and typing Ctrl+C.
 
 <br>
 
+## Data Encryption Strategy
+
+All patient data — conversation history and uploaded files (images, PDFs, DICOM files) — is encrypted at rest inside a local storage_vault folder. No plaintext patient data is ever written to disk.
+
+### How it works:
+
+The encryption key is derived from the Mac's hardware UUID, a unique identifier built into the logic board of every Apple Silicon computer. At startup, the app reads this UUID via ioreg and runs it through PBKDF2-HMAC-SHA256 (480,000 iterations) to produce a 256-bit key. That key is used to initialize a Fernet cipher (AES-128-CBC with HMAC-SHA256 authentication), which handles all encrypt and decrypt operations for the lifetime of that session.
+
+### Machine binding via sentinel file:
+
+The first time the app runs, it encrypts a known constant (VAULT_OK) and writes it to storage_vault/sentinel.bin. On every subsequent startup, the app attempts to decrypt the sentinel using the current machine's hardware UUID. If decryption succeeds, the vault is verified and the app starts normally. If decryption fails — meaning the vault folder has been moved to a different computer — the app immediately deletes the entire vault and exits with a security warning. Your data cannot be read on any machine other than the one that created it.
+
+### What is encrypted:
+
+- storage_vault/conversations.enc — all chat history, stored as a single encrypted JSON file
+- storage_vault/persistent_uploads/*.enc — every uploaded file (image, PDF, DICOM-converted PNG), encrypted individually before being written to disk. Files are decrypted in memory on demand and never written back to disk in plaintext.
+
+### When sharing a copy of the app:
+
+Because the vault is machine-bound, anyone who receives a copy of the app folder cannot decrypt the original user's data even if they forget to delete the storage_vault folder before sharing. As an additional precaution, it's still good practice to delete storage_vault before sharing, since the encrypted files represent patient data and should not travel beyond the original device.
+
+### Limitations to be aware of:
+
+- The encryption protects data at rest from other-machine access, but does not protect against someone with physical access to the same Mac (since the key is derived from that machine's UUID, which any process on that Mac can read).
+- The PBKDF2 salt (MedAiConsole_VaultSalt_v1) is fixed and visible in the source code. Security relies on the secrecy of the hardware UUID, not the salt.
+- Full disk encryption (FileVault) is recommended as a complementary layer of protection.
+
+
+<br>
+
 ## How to apply this approach to your own offline AI app
 
 To convert your AI app to a TDA, I suggest that you collaborate with Claude 4.6 Sonnet. It's free.<br>
