@@ -221,7 +221,7 @@ Minimise the terminal window to the dock:<br>
 Hides the terminal window:<br>
 ```osascript -e 'tell application "System Events" to set visible of process "Terminal" to false'```
 
-- It's import to modify the start-mac-app.command file so the code waits for Ollama to be ready before the app launches:<br>
+- It's important to modify the start-mac-app.command file so the code waits for Ollama to be ready before the app launches:<br>
 ```
 # Wait for Ollama to be ready
 echo "[INFO] Waiting for Ollama to be ready..."
