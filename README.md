@@ -11,7 +11,7 @@
 - Runs in a virtual environment so other software on the user's computer is not disturbed.
 - User data is encrypted. Protects against accidental data leaks.
 
-
+This is essentially a portable, folder-based app that doesn't require complex system-wide installation.
 
 <br>
 
