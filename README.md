@@ -54,7 +54,7 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 - An installed app can be shared by simply making a copy of the project folder.
 - A user who receives a copy doesn't need an internet connection to use the app.
 
-
+<br>
 
 ## Working Example - The Offline MedAi Console v2.0
 
