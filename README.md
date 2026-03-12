@@ -120,10 +120,6 @@ https://www.kaggle.com/datasets/vbookshelf/v2-0-offline-medai-console-thumb-driv
 
 ## Installation Instructions
 
-Update (12-Mar-2026)<br>
-Storing the project folder as a HuggingFace dataset with all dependencies bundled, enables a true double-click, zero-install experience. Also, HuggingFace automatically generates SHA256 hashes for every file in a dataset repository. This traceability will help during a compliance audit.<br>
-Auto Download Version 3: https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA/resolve/main/MedAi-Console-v3.0-TDA.zip?download=true
-
 ### 1. If you downloaded the app from Kaggle:
 
 a. Unzip and place the MedAi-Console-v2.0-TDA folder on your
@@ -250,5 +246,8 @@ echo "[INFO] Ollama is ready."
 ```
 
 - When using voice input and output with Safari, audio output (AI voice) quality and robustness is not as good as when using Chrome. On Mac, pywebview is using the Safari engine, therefore audio quality also varies.
+  
+- Storing the project folder as a HuggingFace dataset with all dependencies bundled, enables a true double-click, zero-install experience. Also, HuggingFace automatically generates SHA256 hashes for every file in a dataset repository. This traceability will help during a compliance audit.<br>
+https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
   
 <br>
