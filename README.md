@@ -250,6 +250,6 @@ echo "[INFO] Ollama is ready."
 - Storing the project folder as a HuggingFace dataset with all dependencies bundled, enables a true double-click, zero-install experience. Also, HuggingFace automatically generates SHA256 hashes for every file in a dataset repository. This traceability will help during a compliance audit.<br>
 https://huggingface.co/datasets/vbookshelf/Offline-MedAi-Console-TDA
 
-- The code in the start-mac-app.command file is currently set up to be self healing i.e. if any dependencies are missing (e.g. the model), it downloads those missing dependencies automatically during startup. This code should be modified to be able to toggle self healing on and off. In this way the user won't be surprised by an unexpected download. Having the self healing feature also makes the app very easy to package therefore, it should not be completely removed.
+- The code in the start-mac-app.command file is currently set up to be self healing i.e. if any dependencies are missing (e.g. the model), it downloads those missing dependencies automatically during startup. This code should be modified to be able to toggle self healing on and off. In this way the user won't be surprised by an unexpected download. Having the self healing feature makes the app very easy to package therefore, it should not be completely removed.
   
 <br>
